@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Name</key>
+	<string>PMID-DOI</string>
+	<key>Extension Identifier</key>
+	<string>com.joneslab.popclip.extension.pmiddoi</string>
+	<key>Extension Description</key>
+	<string>Swap PMID-DOI</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>PMID/DOI</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
+			<key>Shell Script File</key>
+			<string>pmiddoi.py</string>
+			<key>After</key>
+			<string>copy-result</string>
+		</dict>
+	</array>
+</dict>
+</plist>
