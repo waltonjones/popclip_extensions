@@ -3,3 +3,6 @@ This repository includes all my extensions for the excellent [PopClip](http://pi
 
 ### PMID<-->DOI
 This extension searches the [Crossref](http://crossref.org) Labs tool [pmid2doi](http://pmid2doi.labs.crossref.org) to toggle between a Pubmed ID (PMID) and a Digital Object Identifier (DOI).
+
+### Naver Dictionary
+This extension searches the Naver English-Korean dictionary.

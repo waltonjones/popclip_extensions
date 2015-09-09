@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Name</key>
+	<string>Naver Dictionary</string>
+	<key>Extension Identifier</key>
+	<string>com.joneslab.popclip.extension.naverdict</string>
+	<key>Extension Description</key>
+	<string>Open Naver Dictionary in a web browser with the selected text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://new.m.endic.naver.com/search.nhn?&amp;searchOption=&amp;isOnlyViewEE=N&amp;query={popclip text}</string>
+			<key>Image File</key>
+			<string>naver.png</string>
+			<key>Title</key>
+			<string>NaverDict</string>
+		</dict>
+	</array>
+</dict>
+</plist>
